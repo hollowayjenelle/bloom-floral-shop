@@ -29,6 +29,7 @@ defineProps({
   font-size: 40px;
   font-family: "Crimson Text", serif;
   letter-spacing: 2.4px;
+  text-transform: uppercase;
 }
 
 .navigation-links {
@@ -42,6 +43,12 @@ defineProps({
   color: #000;
   font-size: 24px;
   font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.navigation-links a:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 .shop-btn {
@@ -50,5 +57,8 @@ defineProps({
   border-radius: 50px;
   background: #dda15e;
   color: white;
+  border: none;
+  font-size: 24px;
+  font-weight: 600;
 }
 </style>

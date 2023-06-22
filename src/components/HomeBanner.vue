@@ -1,7 +1,6 @@
 <template>
   <div class="home-banner">
     <NavigationBar :isHome="true" />
-    <h1 class="home-banner-text">Show them love with Bloom</h1>
   </div>
 </template>
 
@@ -11,8 +10,10 @@ import NavigationBar from "./NavigationBar.vue";
 
 <style scoped>
 .home-banner {
-  background: url("../assets/home-banner-img.jpg"),
-    lightgray 50% / cover no-repeat;
+  background-image: url("../assets/home-banner-img.jpg");
+  background-size: cover;
+  height: 960px;
+  padding-top: 40px;
 }
 
 .home-banner-text {
