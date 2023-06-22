@@ -1,5 +1,5 @@
 <template>
-  <div class="navigation-bar">
+  <div class="navigation-bar content-container">
     <h1 class="company-name">Bloom</h1>
     <div class="navigation-links">
       <a href="">About</a>

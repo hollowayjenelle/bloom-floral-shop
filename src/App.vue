@@ -9,4 +9,13 @@
   margin: 0 auto;
   box-sizing: border-box;
 }
+
+.parent-container {
+  width: 100%;
+}
+
+.content-container {
+  max-width: 1256px;
+  width: auto;
+}
 </style>
