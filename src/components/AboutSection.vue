@@ -19,6 +19,10 @@
 <script setup lang="ts"></script>
 
 <style scoped>
+.about-section {
+  margin-top: 40px;
+  padding-bottom: 100px;
+}
 .about-title {
   color: #283618;
   font-size: 48px;
@@ -29,14 +33,16 @@
 
 .about-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+  margin-top: 45px;
 }
 
 .about-paragraph {
   color: #283618;
   font-size: 32px;
   font-family: "Poppins", serif;
+  width: 654px;
 }
 
 .about-img {
